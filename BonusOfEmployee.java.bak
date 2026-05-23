@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class BonusOfEmployee {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Take salary input
+        System.out.print("Enter your salary: ");
+        double salary = sc.nextDouble();
+
+        // Take years of service input
+        System.out.print("Enter your years of experience: ");
+        int years = sc.nextInt();
+
+        double bonus;
+
+        // Condition check
+        if (years > 5) {
+            bonus = salary * 0.40;  // 40% of salary
+            System.out.println("You got 40% bonus: " + bonus);
+        } else {
+            bonus = salary * 0.25;  // 25% of salary
+            System.out.println("You got 25% bonus: " + bonus);
+        }
+
+        // Optional: show total salary after bonus
+        System.out.println("Total Salary after bonus: " + (salary + bonus));
+    }
+}
