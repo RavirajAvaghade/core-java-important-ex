@@ -1,0 +1,9 @@
+class  Conditionalop
+{
+	public static void main(String[] args) 
+	{
+		int x=100;
+		int y=(x<20)? 30 : 40;
+		System.out.println(y);
+	}
+}
