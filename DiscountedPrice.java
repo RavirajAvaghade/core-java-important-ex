@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class  DiscountedPrice
+{
+	public static void main(String[] args) 
+	{   Scanner sc = new Scanner(System.in);
+        System.out.println("*******************************");
+		System.out.println("R-Mart");
+		System.out.println("*******************************");
+        System.out.println("Enter product price:");
+		double p = sc.nextDouble();
+		if (p<=200)
+
+		{ System.out.println("product eligible for 10% discount:");
+		  System.out.println("Final price of product:"+0.9*p);
+		}
+        else
+		{ System.out.println("product eligible for 20% discount:");
+		  System.out.println("Final price of product:"+0.8*p);
+	    }
+        System.out.println("*******************************");
+		System.out.println("Thank You Visit Again!!!!");
+		System.out.println("********************************");
+	 }
+
+}
