@@ -1,0 +1,8 @@
+import java.util.Scanner;
+Class ElectriyCityBill
+{
+  public static void main(string[]args);
+  {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter Customer Name:");
+    char customer = nextLine();
