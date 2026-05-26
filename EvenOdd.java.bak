@@ -1,0 +1,8 @@
+class  EvenOdd
+{
+	public static void main(String[] args) 
+	{   int=8;
+	    String check(num==2%==0) ? "odd" "even";
+		System.out.println(check);
+	}
+}
