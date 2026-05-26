@@ -1,0 +1,8 @@
+class  EvenOdd
+{
+	public static void main(String[] args) 
+	{   int num = 11;
+	    String result(n%2==0) ? "Even number":"odd number";
+		System.out.println(n+":"+result);
+	}
+}
