@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class  LoopExample6
+{
+	public static void main(String[] args) 
+	{   Scanner sc = new Scanner(System.in);
+		System.out.println("printing Ascii values");
+		for (char ch = 'A';ch<=Z ;ch++ )
+		{
+			int asciivalues = ch;
+		    System.out.println("Ascii value is:"+ch +asciivalues);
+			
+		}
+	}
+}
