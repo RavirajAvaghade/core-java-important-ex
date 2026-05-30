@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class  LoopExample7
+{
+	public static void main(String[] args) 
+	{   Scanner sc = new Scanner(System.in);
+		System.out.println("Enter x values");
+		int x = sc.nextInt();
+		System.out.println("Enter y values");
+		int y = sc.nextInt();
+		int product =1;
+		for (int i =x;i<=y ;i++)
+		{
+			product=product * i;
+			
+
+		}
+	    System.out.println("multiplication is:"+product);
+
+	}
+}
