@@ -1,0 +1,16 @@
+class MyDetails 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("name:-Raviraj");
+		System.out.println("age:-21");
+		System.out.println("degree:-B.tech");
+		System.out.println("place:-solapur");
+	    System.out.println("mobile no:-8459867542");
+		System.out.println("place:-solapur");
+		System.out.println("mail:-raviraj508@gmail.com"); 
+
+	    
+
+	}
+}
