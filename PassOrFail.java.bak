@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class  PassOrFail
+{     
+	public static void main(String[] args) 
+	{   Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your total marks:");
+		int T=sc.nextInt();
+		System.out.println("Enter obtained marks:");
+		int O=sc.nextInt();
+		double p=T*0.35;
+		System.out.println("Passing marks:"+p);
+		if (p <= 0)
+
+		{ 
+			System.out.println("pass");
+		}
+
+        else
+		{ 	System.out.println("fail");
+	    
+		
+		}
+	}
+
+
+}
