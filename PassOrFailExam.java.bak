@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class  PassOrFailExam
+{
+	public static void main(String[] args) 
+	{   Scanner sc = new Scanner(System.in);
+		System.out.println("Enter total marks:");
+		double totalmarks= sc.nextDouble();
+		System.out.println("Enter obtained marks:");
+		int marksGot= sc.nextInt();
+		if (marksGot>totalmarks)
+		{
+			System.out.println("Enter valid marks:");
+
+		}
+		else
+		{
+			double percentage=(marksGot/totalmarks)*100;
+			if(percentage>=35)
+			{
+				System.out.println("Pass");
+			}
+			else
+			{
+				System.out.println("fail");
+	
+		    }
+		
+		
+		
+		}
+		
+		
+	}
+}
