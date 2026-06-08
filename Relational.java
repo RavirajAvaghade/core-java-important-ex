@@ -1,0 +1,15 @@
+class  Relational
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(3>1);
+		System.out.println(5<4);
+		System.out.println(12>=6);
+		System.out.println(15<=10);
+		System.out.println(5==5);
+		System.out.println(5!=5);
+		System.out.println('A'<'B');
+	}
+}
+// in this relational operator threre will be one true or another false  there was ans
+// will be the false thats why two statements whenever true then ans will be true
