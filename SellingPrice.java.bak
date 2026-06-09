@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class SellingPrice 
+	{
+	public static void main(String[] args) 
+	{   Scanner sc = new Scanner();
+		     System.out.print("Enter Selling Price (SP): ");
+        double sp = sc.nextDouble();
+
+
+
+
+}
