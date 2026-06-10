@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+class ThreeMaxMin {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter first number:");
+        int a = sc.nextInt();
+
+        System.out.println("Enter second number:");
+        int b = sc.nextInt();
+
+        System.out.println("Enter third number:");
+        int c = sc.nextInt();
+
+        int max, min;
+
+        // Maximum 
+        if (a >= b && a >= c) {
+            max = a;
+        } else if (b >= a && b >= c) {
+            max = b;
+        } else {
+            max = c;
+        }
+
+        // Minimum 
+        if (a <= b && a <= c) {
+            min = a;
+        } else if (b <= a && b <= c) {
+            min = b;
+        } else {
+            min = c;
+        }
+
+        // Equal case
+        if (a == b && b == c) {
+            System.out.println("All three numbers are equal.");
+        } else {
+            System.out.println("The greatest number is: " + max);
+            System.out.println("The smallest number is: " + min);
+        }
+    }
+}
